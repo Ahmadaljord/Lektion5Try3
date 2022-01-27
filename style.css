@@ -1,0 +1,179 @@
+/* style.css */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(266550.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+span img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid white;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  transition: width 2s, height 2s, transform 2s;
+  
+}
+
+span img:hover {
+  box-shadow: 0 0 20px 10px orange;
+  border: 10px solid orange;
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  float: left;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  font-family: "Audiowide";
+  text-shadow: -5px 5px 5px black;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 20px;
+  margin-top: 110px;
+  text-decoration: none;
+  font-size: 40px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: transparent;
+  color: orange;
+  text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px orange;
+  transform: scale(font-size);
+  font-size: 60px;
+ }
+
+ .myphoto {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 10px solid #67BFEE;
+   float:right;
+   margin-left: 150px;
+   position: fixed;
+   filter: grayscale(#67BFEE);
+  }
+ h1 {
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   text-transform: capitalize;
+   font-family: "Audiowide";
+   margin-top: 400px;
+   margin-left: 50px;
+ }
+ h1:hover{
+  color: orange;
+
+}
+ 
+ p {
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: "Audiowide";
+ }
+ pre {
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  font-family: "Audiowide";
+ }
+ p:hover {
+  color: darkblue;
+ }
+ button {
+   background-color: orange;
+   color: white;
+   width: auto;
+   text-align: center;
+   font-weight: bold;
+   font-family: "Audiowide";
+   font-size: 15px;
+   border: 5px solid white;
+   border-radius: 22.5px;
+   margin-top: 20px;
+   margin-left: 200px;
+   margin-bottom: 100px;
+   padding: 20px;
+ }
+ h3 {
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  font-family: "Audiowide";
+ }
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #3072ee;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: rgb(86, 139, 199);
+}
+footer {
+    text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #0941f7;
+  color: white;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #0414fc;
+  color: white;
+  border-radius: 50%;
+  
+}
+.fa-google {
+  background: #f10a0a;
+  color: white;
+  border-radius: 50%;
+}
